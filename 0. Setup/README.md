@@ -66,7 +66,7 @@ pwsh
 
 Once you have installed all the above, you're all set and ready to go.
 
-# Working with `GitHub Copilot CLI`
+# Using `GitHub Copilot CLI`
 
 To start a `GitHub Copilot CLI` session, type the following command in a terminal window:
 
