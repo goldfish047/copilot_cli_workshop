@@ -1,6 +1,6 @@
 # Connect Database
 
-Connect to the Chinook.sqlite database in this folder using the connection string "DataSource=Chinook.sqlite;Cache=Shared;". 
+Connect to the `Chinook.sqlite` database in this folder using the connection string ```DataSource=Chinook.sqlite;Cache=Shared;```. 
 
 List all the tables.
 
