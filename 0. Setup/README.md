@@ -65,3 +65,45 @@ pwsh
 ```
 
 Once you have installed all the above, you're all set and ready to go.
+
+# Start `GitHub Copilot CLI`
+
+To start a `GitHub Copilot CLI` session, type the following command in a terminal window:
+
+```bash
+copilot
+```
+
+![Confirm Trust](images/trust.png)
+
+If asked to trust files in current folder, type `ENTER` to confirm `Yes`.
+
+If this is the first time using `GitHub Copilot CLI`, you must login into GitHub by typing in the `/login` command followed by `ENTER`:
+
+![login](images/login.png)
+
+Once you have successfully logged-in, you can enter any prompt into the CLI. For example, enter the following:
+
+```
+What are the top five spoken languages?
+```
+
+This is the response I received:
+
+![languages prompt](images/language-prompt.png)
+
+Note the AI model that you are using in the bottom right corner of the tool.
+
+![AI Model](images/ai-model.png)
+
+To change the AI model, type `/model` followed by `ENTER` in the tool:
+
+![AI Model](images/model.png)
+
+You cann switch to another AI model by using the up and down arrows on your keyboard.
+
+![change AI modelk](images/change-ai-models.png)
+
+At this time the most expensive AI model is `Claude Opus 4.7` in terms of tokens as it uses 15x more tokens than `GPT-5 mini` (0x) or `GPT-4.1`.
+
+To quit `GitHub Copilot CLI` and return to the host operating system, type `/exit` followed by `ENTER`.
