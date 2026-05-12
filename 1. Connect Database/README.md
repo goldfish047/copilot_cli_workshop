@@ -22,7 +22,7 @@ The Chinook database models a digital media store, similar to an old iTunes stor
 
 ## Connecting to the Database
 
-Download the Chinook.sqlite database file here 👉[click me to download](https://github.com/goldfish047/copilot_cli_workshop/blob/main/1.%20Connect%20Database/Chinook.sqlite)
+Download the Chinook.sqlite database file here 👉[click me to download](https://github.com/goldfish047/copilot_cli_workshop/releases/download/Chinook.sqlite/Chinook.sqlite)
 
 
 
