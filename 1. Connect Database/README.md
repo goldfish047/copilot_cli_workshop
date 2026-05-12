@@ -22,17 +22,23 @@ The Chinook database models a digital media store, similar to an old iTunes stor
 
 ## Connecting to the Database
 
-Download the Chinook.sqlite database file here 👉[click me to download](https://github.com/goldfish047/copilot_cli_workshop/releases/download/Chinook.sqlite/Chinook.sqlite)
+1. Download the Chinook.sqlite database file here 👉[Click to download](https://github.com/goldfish047/copilot_cli_workshop/releases/download/Chinook.sqlite/Chinook.sqlite)
 
+2. Create a folder named `Chinook` and place the downloaded `Chinook.sqlite` file inside it.
 
+3. Open your terminal, navigate to the `Chinook` folder, and launch `GitHub Copilot CLI`.
 
+4. Wait for the Copilot CLI interface to load. You should see the prompt ready for input.
 
+5. Once inside Copilot CLI, type the following prompt and press `ENTER` to establish a connection to the Chinook database. This tells Copilot which database file to use and how to access it.
+   ```
+   Connect to the Chinook.sqlite database using the connection string DataSource=Chinook.sqlite;Cache=Shared;
+   ```
+6. You should see Copilot confirm the connection. If you are asked to trust files in the current folder or asked to run commands, press ENTER to confirm Yes.
 
+## Exploring the Database
 
-
-
-
-Connect to the `Chinook.sqlite` database in this folder using the connection string `DataSource=Chinook.sqlite;Cache=Shared;`. 
+Once connected, try the following prompts one at a time. After each one, take a moment to look at the results before moving on.
 
 ```
 List all the tables.
