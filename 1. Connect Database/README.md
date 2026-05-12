@@ -40,14 +40,17 @@ The Chinook database models a digital media store, similar to an old iTunes stor
 
 Once connected, try the following prompts one at a time. After each one, take a moment to look at the results before moving on.
 
+**List all tables in the database:**
 ```
-List all the tables.
+List all the tables in a table format
 ```
 
+**See what is inside a table:**
 ```
 Display data in the Genre table.
 ```
 
+**Ask for insights:**
 ```
 Analyse the data in the database and provide me with some interesting insights.
 ```
