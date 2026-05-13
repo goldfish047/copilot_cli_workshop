@@ -208,6 +208,10 @@ The end result is that we now have a web app that is colorful, has artists crud,
 
 > ![end-result](images/end-result.png)
 
+Here's what the dashboard looks like:
+
+> ![dashboard](images/dashboard.png)
+
 To find out token usage, you can type the `/usage` command. I used 7.5 million tokens. Most were used in understanding the entireity of the code base.
 
 > ![usage](images/usage.png)
