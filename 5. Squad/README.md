@@ -283,7 +283,7 @@ To find out the token usage used during our session with Squad, you can type the
 
 <center>
 
-![usage](images/usage.png)
+> ![usage](images/usage.png)
 
 </center>
 
