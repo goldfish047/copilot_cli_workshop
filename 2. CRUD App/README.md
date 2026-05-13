@@ -57,7 +57,7 @@ Add Entity Framework Core SQLite to Chinook.Web. Connect it to the existing Chin
 
 ## Prompt 3 — Scaffold CRUD Pages
 ```
-Create a Genre model that matches the existing Genre table in Chinook.sqlite. Scaffold full CRUD Razor Pages for Genre. Add a Genre link to the main navigation menu.
+Create a Genre model that matches the existing Genre table in Chinook.sqlite. The SQLite database uses singular table names (e.g. Genre, not Genres), so the model must include a [Table("Genre")] attribute from System.ComponentModel.DataAnnotations.Schema to prevent Entity Framework Core from pluralizing the table name. Scaffold full CRUD Razor Pages for Genre. Add a Genre link to the main navigation menu.
 ```
 > [!TIP]
 > Go back to the terminal running `dotnet watch`. Your app should reload automatically. Navigate to the `/Genres` page in your browser. You should see a list of genres loaded from the Chinook database.
