@@ -37,91 +37,47 @@ copilot
 
 You must be logged into GitHub in order to use Squad. Type the following command in the input field to login into GitHub:
 
-<center>
-
-![login](images/login.png) 
-
-</center>
+> ![login](images/login.png) 
 
 Select *GitHub.com* by hitting *ENTER* on 1.
 
-<center>
-
-![GitHub.com](images/github.png)
-
-</center>
+> ![GitHub.com](images/github.png)
 
 A message is displayed that a code will be placed in the clipboard and your browser will be used for authentication once you press any key.
 
-<center>
-
-![authenticate](images/authenticate.png)
-
-</center>
+> ![authenticate](images/authenticate.png)
 
 Your default browser will open to the `Device Activation` page.
 
-<center>
-
-![device-activation](images/device-activation.png)
-
-</center>
+> ![device-activation](images/device-activation.png)
 
 Choose your preferred GitHub account then click on `Continue`. 
 
-<center>
-
-![one-time-code](images/one-time-code.png)
-
-</center>
+> ![one-time-code](images/one-time-code.png)
 
 Enter the one-time code that was given to you in the GitHub Copilot CLI, then click on *Continue*. Note that it will be different from the code in the image above.
 
-<center>
-
 ![authorize](images/authorize.png)
-
-</center>
 
 Click on *Authorize github*.
 
-<center>
-
-![mfa](images/mfa.png)
-
-</center>
+> ![mfa](images/mfa.png)
 
 You might be required to go through the multi-function authentication process.  Once you are fully authenticated, you should received the below message in your browser:
 
-<center>
-
-![congrats](images/congrats.png)
-
-</center>
+> ![congrats](images/congrats.png)
 
 We will choose the Squad agent to help us improve the `Chinook.Web` app. In the input field, type the following command to select an agent:
 
-<center>
-
-![agent](images/agent.png =250x100)
-
-</center>
+> ![agent](images/agent.png =250x100)
 
 Choose the Squad agent.
 
-<center>
-
-![squad-agent](images/squad-agent.png)
-
-</center>
+> ![squad-agent](images/squad-agent.png)
 
 It would be exhausing for the developer to approve every action that agents will be attempting to make. Autopilot mode is a behavioral state where Copilot executes multi-step tasks autonomously until completion. We will set the CLI to work in *autopilot* mode. Cycle through all the various modes with `SHIFT TAB` and select autopilot.
 
-<center>
-
-![autopilot](images/autopilot.png)
-
-</center>
+> ![autopilot](images/autopilot.png)
 
 Enter thie prompt:
 
@@ -131,11 +87,7 @@ I like the disney universe of cartoon characters and would like to assign a squa
 
 Accept the request for elevated permissions.
 
-<center>
-
-![permission](images/permission.png)
-
-</center>
+> ![permission](images/permission.png)
 
 A long process of autonomous work will commence. Sit back, relax, and watch what is happening. Once everything settles down, you will receive a message that looks like this:
 
@@ -166,27 +118,15 @@ Look at the source code, you will notice that much has happened.
 
 1. A number of skills were added to the *.copilot/skills* folder:
 
-<center>
-
-![skills](images/skills.png)
-
-</center>
+> ![skills](images/skills.png)
 
 2. Workflows were added to the *.github/workflows* folder:
 
-<center>
-
-![workflows](images/workflows.png)
-
-</center>
+> ![workflows](images/workflows.png)
 
 3. Under the `.squad` folder, in addition to other folders and files, there is an `agents` folder with our Disney workers:
 
-<center>
-
-![workers](images/workers.png)
-
-</center>
+> ![workers](images/workers.png)
 
 Read the charter for each of these workers. For example, Mickey's charter in the `charter.md` file is:
 
@@ -257,34 +197,18 @@ Go ahead and ask for more features. I asked for the following enhancements:
 > [!NOTE]
 > Note that agents get to choose different models for theie assigned tasks. For example: Mickey is using claude-sonnet-4.6, and Daisy is using claude-opus-4.5, etc.
 
-<center>
-
-![models](images/models.png)
-
-</center>
+> ![models](images/models.png)
 
 There are instances when one agent waits for other agents to complete their assigned tasks.
 
-<center>
-
-![wait](images/wait.png)
-
-</center>
+> ![wait](images/wait.png)
 
 The end result is that we now have a web app that is colorful, has artists crud, and a dashboard.
 
-<center>
-
-![end-result](images/end-result.png)
-
-</center>
+> ![end-result](images/end-result.png)
 
 To find out the token usage used during our session with Squad, you can type the `/usage` command. I used 7.5 million tokens. Most were used in understanding the entireity of the code base.
 
-<center>
-
 > ![usage](images/usage.png)
-
-</center>
 
 Squad is a very interesting tool and provides us with an insight into the future world of software development.
