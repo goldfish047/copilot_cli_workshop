@@ -83,8 +83,7 @@ Enter this prompt:
 
 ```text
 I like the disney universe of cartoon characters and would like to assign a squad to work on the Chinook.Web project.  
-
-Review the current state, propose. new features, and discuss next steps. 
+Review the current state, propose new features, and discuss next steps. 
 ```
 
 Accept the request for elevated permissions.
