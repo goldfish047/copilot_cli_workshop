@@ -4,7 +4,8 @@
 
 Squad is a team of agents that work on your behalf to conduct specializations like: DevOps, Testing, DB optimization, etc. 
 
-This is an experimental project and may change over time.
+> [!NOTE]
+> This is an experimental project and may change over time.
 
 The GitHub repo for Squad is at [https://github.com/bradygaster/squad](url)
 
