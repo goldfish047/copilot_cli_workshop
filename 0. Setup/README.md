@@ -30,7 +30,27 @@ If you do not have .NET on your computere, or your version is older than 10.0, t
 sqlite3 --version
 ```
 
-If you do not have `SQLite`, then visit https://dotnet.microsoft.com/en-us/download to  download and install it.
+If you do not have `SQLite`, then:
+1. visit [https://dotnet.microsoft.com/en-us/download](https://sqlite.org/download.html) to  download and install it.
+2. download sqlite-tools-win-x64-3530100.zip
+3. Extract the zip somewhere simple like:
+   ```
+   C:\sqlite
+   ```
+4. Make sure th `sqlite3.exe` is inside that folder
+5. Add C:\sqlite to PATH:
+   - Press Windows key
+   - Search: enviroment variables
+   - Open: Edit the system enviroment Variables
+   - Under User variables -> Path -> Edit
+   - Click New
+   - Add: `C:\sqlite`
+6. Press Ok on everyhting
+7. Close and reopen PowerShell
+8. Run:
+   ```
+   sqlite3 --version
+   ```
 
 ## GitHub Copilot CLI
 
