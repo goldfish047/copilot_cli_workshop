@@ -9,10 +9,11 @@ Squad is a team of agents that work on your behalf to conduct specializations li
 
 The GitHub repo for Squad is at [https://github.com/bradygaster/squad](url)
 
-Note the following about Squad:
-1. Squad works with GitHub Copilot
-2. You need to have **Node.js** and **npm** (version 5.2.0 or higher) installed on your computer in order to setup Squad.
-3. Using Squad can result in the consumption of a sizable amount of tokens.
+> [!NOTE]
+> Note the following about Squad:
+> 1. Squad works with GitHub Copilot
+> 2. You need to have **Node.js** and **npm** (version 5.2.0 or higher) installed on your computer in order to setup Squad.
+> 3. Using Squad can result in the consumption of a sizable amount of tokens.
 
 ## Let's take it for a spin
 
