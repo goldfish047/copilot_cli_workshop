@@ -82,7 +82,7 @@ It would be exhausing for the developer to approve every action that agents will
 Enter thie prompt:
 
 ```text
-I like the disney universe of cartoon characters and would like to assign a squad to work on the Chinook.Web project. We will review the current state, the proposed features, and discuss next steps.
+I like the disney universe of cartoon characters and would like to assign a squad to work on the Chinook.Web project. They will review the current state, propose. new features, and discuss next steps. 
 ```
 
 Accept the request for elevated permissions.
