@@ -268,3 +268,20 @@ There are instances when one agent waits for other agents to complete their assi
 
 </center>
 
+The end result is that we now have a web app that is colorful, has artists crud, and a dashboard.
+
+<center>
+
+![end-result](images/end-result.png)
+
+</center>
+
+To find out the token usage used during our session with Squad, you can type the */usage* command. I used 7.5 million tokens. Most were used in understanding the entireity of the code base.
+
+<center>
+
+![usage](images/usage.png)
+
+</center>
+
+Squad is a very interesting tool and provides us with an insight into the future world of software development.
