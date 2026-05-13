@@ -35,47 +35,91 @@ copilot
 
 You must be logged into GitHub in order to use Squad. Type the following command in the input field to login into GitHub:
 
+<center>
+
 ![login](images/login.png) 
+
+</center>
 
 Select *GitHub.com* by hitting *ENTER* on 1.
 
+<center>
+
 ![GitHub.com](images/github.png)
+
+</center>
 
 A message is displayed that a code will be placed in the clipboard and your browser will be used for authentication once you press any key.
 
+<center>
+
 ![authenticate](images/authenticate.png)
+
+</center>
 
 Your default browser will open to the *Device Activation* page.
 
+<center>
+
 ![device-activation](images/device-activation.png)
+
+</center>
 
 Choose your preferred GitHub account then click on *Continue*. 
 
+<center>
+
 ![one-time-code](images/one-time-code.png)
+
+</center>
 
 Enter the one-time code that was given to you in the GitHub Copilot CLI, then click on *Continue*. Note that it will be different from the code in the image above.
 
+<center>
+
 ![authorize](images/authorize.png)
+
+</center>
 
 Click on *Authorize github*.
 
+<center>
+
 ![mfa](images/mfa.png)
+
+</center>
 
 You might be required to go through the multi-function authentication process.  Once you are fully authenticated, you should received the below message in your browser:
 
+<center>
+
 ![congrats](images/congrats.png)
+
+</center>
 
 We will choose the Squad agent to help us improve the *Chinook.Web* app. In the input field, type the following command to select an agent:
 
-![agent](images/agent.png)
+<center>
+
+![agent](images/agent.png =250x100)
+
+</center>
 
 Choose the Squad agent.
 
+<center>
+
 ![squad-agent](images/squad-agent.png)
+
+</center>
 
 It would be exhausing for the developer to approve every action that agents will be attempting to make. Autopilot mode is a behavioral state where Copilot executes multi-step tasks autonomously until completion. We will set the CLI to work in *autopilot* mode. Cycle through all the various modes with *SHIFT TAB* and select autopilot.
 
+<center>
+
 ![autopilot](images/autopilot.png)
+
+</center>
 
 Enter thie prompt:
 
@@ -85,7 +129,11 @@ I like the disney universe of cartoon characters and would like to assign a squa
 
 Accept the request for elevated permissions.
 
+<center>
+
 ![permission](images/permission.png)
+
+</center>
 
 A long process of autonomous work will commence. Sit back, relax, and watch what is happening. Once everything settles down, you will receive a message that looks like this:
 
@@ -116,15 +164,27 @@ Look at the source code, you will notice that much has happened.
 
 1. A number of skills were added to the *.copilot/skills* folder:
 
+<center>
+
 ![skills](images/skills.png)
+
+</center>
 
 2. Workflows were added to the *.github/workflows* folder:
 
+<center>
+
 ![workflows](images/workflows.png)
+
+</center>
 
 3. Under the *.squad* folder, in addition to other folders and files, there is an *agents* folder with our Disney workers:
 
+<center>
+
 ![workers](images/workers.png)
+
+</center>
 
 Read the charter for each of these workers. For example, Mickey's charter in the *charter.md* file is:
 
@@ -182,3 +242,29 @@ If I need another team member's input, say so — the coordinator will bring the
 
 Opinionated about clean architecture. Will push back on technical debt. Prefers simplicity over cleverness. Thinks in systems, not just features. Not afraid to say "we shouldn't build that."
 ```
+
+Go ahead and ask for more features. I asked for the following enhancements:
+
+```text
+1. add CRUD pages for Artists
+2. add Sales Dashboard & Reporting
+3. recruit a GitHub DevOps engineer to configure some github actions for CI
+4. add web designer to help make the UI of the entire web app more colorful and compelling
+```
+
+Note that agents get to choose different models for theie assigned tasks. For example: Mickey is using claude-sonnet-4.6, and Daisy is using claude-opus-4.5, etc.
+
+<center>
+
+![models](images/models.png)
+
+</center>
+
+There are instances when one agent waits for other agents to complete their assigned tasks.
+
+<center>
+
+![wait](images/wait.png)
+
+</center>
+
