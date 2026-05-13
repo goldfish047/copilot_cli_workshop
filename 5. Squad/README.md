@@ -23,7 +23,7 @@ Install Squad globally on your computer by typing the follwoing terminal window 
 npm install -g @bradygaster/squad-cli
 ```
 
-In the *Chinook.Web* folder created in tutorial number 2 (CRUD App), initialize Squad with:
+In the `Chinook.Web` folder created in tutorial number 2 (CRUD App), initialize Squad with:
 
 ```bash
 squad init
@@ -59,7 +59,7 @@ A message is displayed that a code will be placed in the clipboard and your brow
 
 </center>
 
-Your default browser will open to the *Device Activation* page.
+Your default browser will open to the `Device Activation` page.
 
 <center>
 
@@ -67,7 +67,7 @@ Your default browser will open to the *Device Activation* page.
 
 </center>
 
-Choose your preferred GitHub account then click on *Continue*. 
+Choose your preferred GitHub account then click on `Continue`. 
 
 <center>
 
@@ -99,7 +99,7 @@ You might be required to go through the multi-function authentication process.  
 
 </center>
 
-We will choose the Squad agent to help us improve the *Chinook.Web* app. In the input field, type the following command to select an agent:
+We will choose the Squad agent to help us improve the `Chinook.Web` app. In the input field, type the following command to select an agent:
 
 <center>
 
@@ -115,7 +115,7 @@ Choose the Squad agent.
 
 </center>
 
-It would be exhausing for the developer to approve every action that agents will be attempting to make. Autopilot mode is a behavioral state where Copilot executes multi-step tasks autonomously until completion. We will set the CLI to work in *autopilot* mode. Cycle through all the various modes with *SHIFT TAB* and select autopilot.
+It would be exhausing for the developer to approve every action that agents will be attempting to make. Autopilot mode is a behavioral state where Copilot executes multi-step tasks autonomously until completion. We will set the CLI to work in *autopilot* mode. Cycle through all the various modes with `SHIFT TAB` and select autopilot.
 
 <center>
 
@@ -180,7 +180,7 @@ Look at the source code, you will notice that much has happened.
 
 </center>
 
-3. Under the *.squad* folder, in addition to other folders and files, there is an *agents* folder with our Disney workers:
+3. Under the `.squad` folder, in addition to other folders and files, there is an `agents` folder with our Disney workers:
 
 <center>
 
@@ -188,7 +188,7 @@ Look at the source code, you will notice that much has happened.
 
 </center>
 
-Read the charter for each of these workers. For example, Mickey's charter in the *charter.md* file is:
+Read the charter for each of these workers. For example, Mickey's charter in the `charter.md` file is:
 
 ```text
 # Mickey — Lead
@@ -254,7 +254,8 @@ Go ahead and ask for more features. I asked for the following enhancements:
 4. add web designer to help make the UI of the entire web app more colorful and compelling
 ```
 
-Note that agents get to choose different models for theie assigned tasks. For example: Mickey is using claude-sonnet-4.6, and Daisy is using claude-opus-4.5, etc.
+> [!NOTE]
+> Note that agents get to choose different models for theie assigned tasks. For example: Mickey is using claude-sonnet-4.6, and Daisy is using claude-opus-4.5, etc.
 
 <center>
 
@@ -278,7 +279,7 @@ The end result is that we now have a web app that is colorful, has artists crud,
 
 </center>
 
-To find out the token usage used during our session with Squad, you can type the */usage* command. I used 7.5 million tokens. Most were used in understanding the entireity of the code base.
+To find out the token usage used during our session with Squad, you can type the `/usage` command. I used 7.5 million tokens. Most were used in understanding the entireity of the code base.
 
 <center>
 
