@@ -72,7 +72,7 @@ Your app should now look noticeably different (hand-drawn style buttons and a un
 
 ---
 
-## Prompt 5 — Run the app [!!!NOT WORKINGG half the timne!!! so maybe need to run dotnet watch in other terminal]
+## Prompt 5 — Run the app [!!!NOT WORKINGG half the timne!!! (only works on home page and cannot run genere page) so maybe need to run dotnet watch in other terminal]
 ```
 Run the app 
 ```
