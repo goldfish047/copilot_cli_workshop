@@ -99,14 +99,74 @@ To start a `GitHub Copilot CLI` session, type the following command in a termina
 copilot
 ```
 
-![Confirm Trust](images/trust.png)
+If asked to trust files in current folder, select `Yes` and press `ENTER`.
+![Confirm Trust](images/1.%20trust.jpg)
 
-If asked to trust files in current folder, type `ENTER` to confirm `Yes`.
 
 If this is the first time using `GitHub Copilot CLI`, you must login into GitHub by typing in the `/login` command followed by `ENTER`:
+![login](images/2.%20login.jpg)
 
-![login](images/login.png)
 
+Select GitHub.com by hitting `ENTER` on `1`.
+![select github](images/3.%20github%20login.jpg)
+
+
+A one-time code will displayed and your browser will be used for authentication once you press any key.
+![one-time code](images/4.%20one-time%20code.jpg)
+
+
+
+Your default browser will open to the `Device Activation` page.
+![Device Activation](images/5.%20device-activation.jpg)
+
+
+Enter the one-time code that was given to you in the GitHub Copilot CLI, then click on Continue. Note that it will be different from the code in the image below.
+![enter code](images/6.%20enter-code.jpg)
+
+
+Click on Authorize github.
+![enter code](images/7.%20authorize%20.jpg)
+
+
+Once you are fully authenticated, you should received the message in your browser:
+![enter code](images/8.%20congratulations.jpg)
+
+
+Go back to the copilot CLI andyou will be asked to sign up for Copilot Free if you havent already. Select `1. Yes, sign up for Copilot Free` and hit 'Enter'
+![enter code](images/9.%20sign-up.jpg)
+
+
+Once you have completed everything, you can enter any prompt into the CLI. For example, enter the following:
+```
+What are the top five spoken languages?
+```
+
+
+You might be asked some question and choose whichever option you prefer.
+![enter code](images/10.%20language-options.jpg)
+
+
+This is the response I received:
+![enter code](images/11.%20language-answered.jpg)
+
+
+> [!NOTE]
+> AI model that you are using in the bottom right corner of the tool.
+
+
+To change the AI model, type `/model` followed by `ENTER`:
+![enter code](images/12.%20select-model.jpg)
+
+You can switch to another AI model by using the up and down arrows on your keyboard. But for now we will stick with GPT-5 mini (default)
+![enter code](images/13.%20model-option.jpg)
+
+Medium for the reasoning effort for GPT-5 mini
+![enter code](images/14.%20reasoning.jpg)
+
+
+
+
+<!--
 Once you have successfully logged-in, you can enter any prompt into the CLI. For example, enter the following:
 
 ```
@@ -130,5 +190,6 @@ You cann switch to another AI model by using the up and down arrows on your keyb
 ![change AI modelk](images/change-ai-models.png)
 
 At this time the most expensive AI model is `Claude Opus 4.7` in terms of tokens as it uses 15x more tokens than `GPT-5 mini` (0x) or `GPT-4.1`.
+-->
 
 To quit `GitHub Copilot CLI` and return to the host operating system, type `/exit` followed by `ENTER`.
