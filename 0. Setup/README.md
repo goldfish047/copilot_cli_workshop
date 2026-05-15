@@ -37,7 +37,7 @@ If you do not have `SQLite`, then:
    ```
    C:\sqlite
    ```
-4. Make sure th `sqlite3.exe` is inside that folder
+4. Make sure the `sqlite3.exe` is inside that folder
 5. Add C:\sqlite to PATH:
    - Press Windows key
    - Search: enviroment variables
@@ -85,6 +85,11 @@ pwsh
 ```
 
 Once you have installed all the above, you're all set and ready to go.
+
+
+
+
+
 
 # Using `GitHub Copilot CLI`
 
