@@ -69,13 +69,15 @@ Create a Genre model that matches the existing Genre table in Chinook.sqlite. Th
 ```
 Replace the default Bootstrap CSS in _Layout.cshtml with the Bootswatch Sketchy theme CDN link from https://bootswatch.com/sketchy/
 ```
-Your app should now look noticeably different (hand-drawn style buttons and a unique font). Refresh `http://localhost:5000/Genres` to see the new theme applied.
+Go back to the terminal running `dotnet watch` and refresh the `/Genres` page in your browser. Your app should now look noticeably different (hand-drawn style buttons and a unique font).
 
 ---
 
-## Prompt 5 — Run the app [!!!NOT WORKINGG half the timne!!! (only works on home page and cannot run genere page) so maybe need to run dotnet watch in other terminal]
-```
-Run the app 
-```
+## Try It Out
+Now that your app is up and running, try the following in your browser:
 
-If everything is working, you should see the Genre list page populated with data from the Chinook database. Try adding, editing, and deleting a genre to confirm the full CRUD functionality is working.
+- Add a new genre using the Create button
+- Edit an existing genre
+- Delete a genre you no longer need
+
+If all three work correctly, you have successfully completed Tutorial 2. Head over to Tutorial 3 when you are ready.
