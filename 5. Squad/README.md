@@ -69,7 +69,7 @@ You might be required to go through the multi-function authentication process.  
 
 We will choose the Squad agent to help us improve the `Chinook.Web` app. In the input field, type the following command to select an agent:
 
-> ![agent](images/agent.png =250x100)
+> ![agent](images/agent.png)
 
 Choose the Squad agent.
 
