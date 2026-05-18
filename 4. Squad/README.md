@@ -93,7 +93,7 @@ Accept the request for elevated permissions.
 
 > ![permission](images/permission.png)
 
-A long process of autonomous work will commence. Sit back, relax, and watch what is happening. Once everything settles down, you will receive a message that looks like this:
+A long process of autonomous work will commence. Sit back, relax, and watch what is happening. Once everything settles down, you will receive a message that may look like this:
 
 ```text
 Next steps you requested:
