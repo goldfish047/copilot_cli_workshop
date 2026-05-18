@@ -35,6 +35,7 @@ Start a GitHub Copilot CLI session by typing the following terminal window comma
 copilot
 ```
 
+<!--
 You must be logged into GitHub in order to use Squad. Type the following command in the input field to login into GitHub:
 
 > ![login](images/login.png) 
@@ -66,6 +67,8 @@ Click on *Authorize github*.
 You might be required to go through the multi-function authentication process.  Once you are fully authenticated, you should received the below message in your browser:
 
 > ![congrats](images/congrats.png)
+
+-->
 
 We will choose the Squad agent to help us improve the `Chinook.Web` app. In the input field, type the following command to select an agent:
 
