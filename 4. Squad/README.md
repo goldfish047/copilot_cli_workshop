@@ -35,6 +35,7 @@ Start a GitHub Copilot CLI session by typing the following terminal window comma
 copilot
 ```
 
+<!--
 You must be logged into GitHub in order to use Squad. Type the following command in the input field to login into GitHub:
 
 > ![login](images/login.png) 
@@ -67,6 +68,8 @@ You might be required to go through the multi-function authentication process.  
 
 > ![congrats](images/congrats.png)
 
+-->
+
 We will choose the Squad agent to help us improve the `Chinook.Web` app. In the input field, type the following command to select an agent:
 
 > ![agent](images/agent.png)
@@ -90,7 +93,7 @@ Accept the request for elevated permissions.
 
 > ![permission](images/permission.png)
 
-A long process of autonomous work will commence. Sit back, relax, and watch what is happening. Once everything settles down, you will receive a message that looks like this:
+A long process of autonomous work will commence. Sit back, relax, and watch what is happening. Once everything settles down, you will receive a message that may look like this:
 
 ```text
 Next steps you requested:
@@ -192,7 +195,7 @@ Go ahead and ask for more features. I asked for the following enhancements:
 1. add CRUD pages for Artists
 2. add Sales Dashboard & Reporting
 3. recruit a GitHub DevOps engineer to configure some github actions for CI
-4. add web designer to help make the UI of the entire web app more colorful and compelling
+4. add a web designer to help make the UI of the entire web app more colorful and compelling
 ```
 
 > [!NOTE]
