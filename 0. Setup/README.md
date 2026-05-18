@@ -125,10 +125,12 @@ Enter the one-time code that was given to you in the GitHub Copilot CLI, then cl
 
 
 Click on Authorize github.
+
 ![enter code](images/7.%20authorize%20.jpg)
 
 
 Once you are fully authenticated, you should received the message in your browser:
+
 ![enter code](images/8.%20congratulations.jpg)
 
 
