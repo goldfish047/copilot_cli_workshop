@@ -195,7 +195,7 @@ Go ahead and ask for more features. I asked for the following enhancements:
 1. add CRUD pages for Artists
 2. add Sales Dashboard & Reporting
 3. recruit a GitHub DevOps engineer to configure some github actions for CI
-4. add web designer to help make the UI of the entire web app more colorful and compelling
+4. add a web designer to help make the UI of the entire web app more colorful and compelling
 ```
 
 > [!NOTE]
