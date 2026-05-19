@@ -16,7 +16,7 @@ Create a simple ASP.NET Razor Pages web application using .NET version 10.0 in a
 
 # Tutorial 2 — Build a CRUD App
 
-In this tutorial, you will use `GitHub Copilot CLI` to build a simple ASP.NET Razor Pages web application that reads and manages data from the Chinook database. You will do this step by step, one prompt at a time.
+In this tutorial, you will use `GitHub Copilot CLI` to build a simple ASP.NET Razor Pages web application that reads and manages data from the Chinook database. At the end you can ask `GitHub Copilot CLI` to add more data to your database. You will do this step by step, one prompt at a time.
 
 > [!NOTE]
 > Before you start, make sure you have completed Tutorial 1 and have already run the following prompt inside Copilot CLI:
@@ -79,3 +79,16 @@ Now that your app is up and running, try the following in your browser:
 - Delete a genre you no longer need
 
 If all three work correctly, you have successfully completed Tutorial 2. Head over to Tutorial 3 when you are ready.
+
+
+## (Optional) Generate Fake Data
+
+In this prompt, we will ask Copilot to insert fake data into the database directly 
+
+Type the following prompt inside Copilot CLI and press `ENTER`:
+
+```
+Insert 10 fake sample genres into the Genre table in Chinook.sqlite
+```
+
+Once Copilot is done, navigate to the `/Genres` page in your browser to confirm the new genres have been added. Feel free to play around or try editing/deleting some of the new entries to see the full CRUD functionality in action.

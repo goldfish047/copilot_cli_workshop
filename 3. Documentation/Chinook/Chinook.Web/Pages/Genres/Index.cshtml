@@ -1,0 +1,23 @@
+@page
+@model Chinook.Web.Pages.Genres.IndexModel
+@{
+    ViewData["Title"] = "Genres";
+}
+<h1>Genres</h1>
+<p><a class="btn btn-primary" asp-page="Create">Create New</a></p>
+<table class="table">
+    <thead><tr><th>GenreId</th><th>Name</th><th></th></tr></thead>
+    <tbody>
+@foreach (var item in Model.Genre) {
+    <tr>
+        <td>@item.GenreId</td>
+        <td>@item.Name</td>
+        <td>
+            <a class="btn btn-sm btn-secondary" asp-page="Edit" asp-route-id="@item.GenreId">Edit</a>
+            <a class="btn btn-sm btn-info" asp-page="Details" asp-route-id="@item.GenreId">Details</a>
+            <a class="btn btn-sm btn-danger" asp-page="Delete" asp-route-id="@item.GenreId">Delete</a>
+        </td>
+    </tr>
+}
+    </tbody>
+</table>
